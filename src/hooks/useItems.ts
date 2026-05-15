@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { supabase } from '@/lib/supabase/client';
 
 export const useItems = () => {
-  const [items, setItems] = useState([]);
+  const [items, setItems] = useState<any[]>([]);
 
   useEffect(() => {
     // Fetch awal
