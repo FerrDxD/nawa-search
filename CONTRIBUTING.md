@@ -1,34 +1,50 @@
-contributing_content = """# Panduan Kontribusi NAWA-SEARCH
+Tentu, Kak! Ini draf untuk file CONTRIBUTING.md yang disesuaikan dengan alur kerja NAWASENA Development Team dan proyek NAWA-SEARCH. Panduan ini dibuat agar kontributor lain (seperti teman-teman divisi ICT/TIK atau siswa lain yang tertarik) bisa ikut menyumbang kode dengan rapi.
 
-Kami sangat senang jika kamu ingin membantu mengembangkan NAWA-SEARCH agar lebih bermanfaat bagi warga SMAN 2 Jonggol. Berikut adalah panduan untuk berkontribusi.
+Panduan Kontribusi NAWA-SEARCH
+Halo! Terima kasih sudah meluangkan waktu untuk berkontribusi di repositori NAWA-SEARCH. Proyek ini adalah inisiatif mandiri untuk menciptakan lingkungan sekolah yang lebih teratur melalui solusi digital. Bantuan dari sesama developer sangat kami hargai.
 
-Cara Berkontribusi
-Laporkan Bug: Jika kamu menemukan error, silakan buka Issue di GitHub atau lapor ke Divisi TIK.
+Dokumen ini memuat panduan dasar tentang cara berpartisipasi dan menyumbangkan kode ke dalam proyek ini.
 
-Saran Fitur: Punya ide keren? Jangan ragu untuk mendiskusikannya di Sekre OSIS.
+Cara Berpartisipasi
+Kami sangat terbuka dengan berbagai bentuk kontribusi, mulai dari perbaikan bug, penulisan dokumentasi, hingga pengembangan fitur baru.
 
-Perbaikan Kode:
+Melaporkan Bug: Jika kamu menemukan celah keamanan atau error di website, silakan buat Issue baru di GitHub. Sertakan langkah detail untuk mereproduksi error tersebut agar tim kami bisa segera memperbaikinya.
 
-Fork repository ini.
+Saran Fitur Baru: Punya ide keren untuk pengembangan web Lost and Found ini? Buat Issue dan jelaskan bagaimana fitur tersebut bisa mempermudah proses pelaporan atau pencarian barang.
 
-Buat branch baru untuk fitur atau perbaikanmu (git checkout -b fitur/nama-fitur).
+Memperbaiki Kode: Kamu bisa langsung mengambil Issue yang sedang terbuka dan mengirimkan Pull Request.
 
-Lakukan commit dengan pesan yang jelas.
+Panduan Pull Request (PR)
+Untuk menjaga kerapian dan stabilitas repositori utama, ikuti langkah-langkah berikut saat ingin menyumbangkan kode:
 
-Push ke branch tersebut dan buat Pull Request.
+Lakukan Fork pada repositori utama ke akun GitHub pribadimu.
 
-Standar Kode
-Gunakan TypeScript secara ketat. Hindari penggunaan any jika memungkinkan.
+Lakukan Clone repositori hasil fork tersebut ke komputer lokal.
 
-Pastikan kode rapi dan sudah melewati proses npm run build tanpa error sebelum di-push.
+Buat branch baru untuk fitur atau perbaikan yang akan dikerjakan (contoh: git checkout -b perbaikan-ui-pencarian).
 
-Gunakan Tailwind CSS untuk styling agar konsisten dengan desain NAWASENA lainnya.
+Tulis kode atau lakukan perbaikan yang diperlukan.
 
-Alur Kerja Git
-Kami menggunakan sistem branching sederhana:
+Lakukan commit dengan pesan yang singkat, jelas, dan deskriptif.
 
-main: Branch stabil yang terhubung langsung ke Vercel Production.
+Lakukan Push ke branch di repositori fork milikmu.
 
-development: Branch untuk menguji fitur baru sebelum digabung ke main.
+Buka repositori utama NAWASENA Development Team dan buat Pull Request baru.
 
-Terima kasih telah ikut memajukan digitalisasi sekolah kita!
+Tunggu ulasan dari pengelola repositori. Kami mungkin akan memberikan sedikit masukan sebelum kodemu digabungkan.
+
+Standar Pengodean
+Proyek ini dibangun menggunakan standar web modern. Agar kode tetap konsisten, mohon perhatikan beberapa hal berikut:
+
+Pastikan antarmuka tetap responsif di berbagai perangkat menggunakan HTML dan CSS yang efisien.
+
+Jaga kebersihan kode JavaScript dan hindari fungsi yang terlalu rumit tanpa penjelasan.
+
+Berikan komentar pada bagian kode yang kompleks untuk memudahkan developer lain memahami logikanya.
+
+Uji kode secara lokal terlebih dahulu sebelum membuat Pull Request.
+
+Hubungi Kami
+Jika ada pertanyaan lebih lanjut seputar teknis integrasi web atau butuh bantuan saat melakukan setup proyek secara lokal, kamu bisa berdiskusi langsung melalui tab Issues.
+
+Mari bersama membangun solusi teknologi yang bermanfaat untuk semua!
