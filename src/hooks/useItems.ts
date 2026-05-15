@@ -9,7 +9,7 @@ export const useItems = () => {
     // Fetch awal
     const fetchItems = async () => {
       const { data } = await supabase.from('items').select('*').order('created_at', { ascending: false });
-      setItems(data);
+      setItems(data || []);
     };
 
     fetchItems();
