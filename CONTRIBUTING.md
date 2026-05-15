@@ -26,4 +26,4 @@ Jika kamu ingin turun langsung menulis kode, silakan ikuti alur berikut:
 1. **Fork** repositori ini ke akun GitHub kamu.
 2. **Clone** repositori hasil fork ke komputer lokalmu:
    ```bash
-   git clone [https://github.com/USERNAME_KAMU/nawa-search.git](https://github.com/USERNAME_KAMU/nawa-search.git)
+   git clone [https://github.com/FerrDxd/nawa-search.git](https://github.com/FerrDxD/nawa-search.git)
