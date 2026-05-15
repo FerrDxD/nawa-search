@@ -9,6 +9,7 @@ interface ItemCardProps {
     status?: string;
     image_url?: string;
     category?: string;
+  };
 }
 
 export default function ItemCard({ item }: ItemCardProps) {
