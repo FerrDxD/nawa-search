@@ -8,7 +8,7 @@ interface ItemCardProps {
     location_found?: string;
     status?: string;
     image_url?: string;
-  };
+    category?: string;
 }
 
 export default function ItemCard({ item }: ItemCardProps) {
