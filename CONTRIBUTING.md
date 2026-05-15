@@ -1,5 +1,3 @@
-Tentu, Kak! Ini draf untuk file CONTRIBUTING.md yang disesuaikan dengan alur kerja NAWASENA Development Team dan proyek NAWA-SEARCH. Panduan ini dibuat agar kontributor lain (seperti teman-teman divisi ICT/TIK atau siswa lain yang tertarik) bisa ikut menyumbang kode dengan rapi.
-
 Panduan Kontribusi NAWA-SEARCH
 Halo! Terima kasih sudah meluangkan waktu untuk berkontribusi di repositori NAWA-SEARCH. Proyek ini adalah inisiatif mandiri untuk menciptakan lingkungan sekolah yang lebih teratur melalui solusi digital. Bantuan dari sesama developer sangat kami hargai.
 
