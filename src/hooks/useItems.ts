@@ -1,6 +1,6 @@
 // hooks/useItems.ts
 import { useEffect, useState } from 'react';
-import { supabase } from '@/lib/supabase';
+import { supabase } from '@/lib/supabase/client';
 
 export const useItems = () => {
   const [items, setItems] = useState([]);
