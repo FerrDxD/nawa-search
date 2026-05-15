@@ -17,17 +17,25 @@ export default function LoginPage() {
     setLoading(true);
     setError(null);
 
-    const { error } = await supabase.auth.signInWithPassword({
-      email,
-      password,
-    });
+    try {
+      const { error } = await supabase.auth.signInWithPassword({
+        email,
+        password,
+      });
 
-    if (error) {
-      setError(error.message);
+      if (error) {
+        setError(error.message);
+        setLoading(false);
+      } else {
+        // Beri jeda kecil agar cookie terpasang sempurna
+        setTimeout(() => {
+          router.push('/dashboard');
+          router.refresh();
+        }, 500);
+      }
+    } catch (err: any) {
+      setError('Terjadi kesalahan sistem. Coba lagi nanti.');
       setLoading(false);
-    } else {
-      router.push('/dashboard');
-      router.refresh();
     }
   };
 
