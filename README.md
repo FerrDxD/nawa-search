@@ -13,9 +13,9 @@ Kehilangan barang di lingkungan sekolah seringkali menjadi masalah yang merepotk
 
 ## Teknologi yang Digunakan
 Proyek ini dikembangkan menggunakan standar web modern untuk memastikan antarmuka yang responsif serta fungsionalitas yang mulus.
-* Antarmuka responsif yang dibangun menggunakan HTML, CSS, dan JavaScript.
-* Integrasi *version control* menggunakan Git dan GitHub.
-* *Deployment* yang cepat dan stabil melalui platform Vercel.
+* Antarmuka responsif yang dibangun menggunakan [Next.js](https://nextjs.org/)/[React.js](https://react.dev/), [Typescript](https://www.typescriptlang.org/), dan [Tailwind](https://tailwindcss.com/).
+* Integrasi *version control* menggunakan [GitHub](https://github.com/).
+* *Deployment* yang cepat dan stabil melalui platform [Vercel](https://vercel.com/).
 
 ## Cara Penggunaan
 1. Kunjungi tautan resmi NAWA-SEARCH di [https://nawa-search.vercel.app](https://nawa-search.vercel.app).
