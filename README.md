@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NAWA-SEARCH: Solusi Cepat Temukan Barangmu
 
-## Getting Started
+Selamat datang di repositori NAWA-SEARCH, platform Pusat Kehilangan dan Barang Temuan (Lost and Found) yang dirancang khusus untuk mempermudah pencarian dan pelaporan barang di area sekolah. Platform ini dikelola penuh oleh NAWASENA Development Team.
 
-First, run the development server:
+## Latar Belakang
+Kehilangan barang di lingkungan sekolah seringkali menjadi masalah yang merepotkan. NAWA-SEARCH hadir sebagai inovasi berbasis teknologi dari divisi ICT/TIK untuk memberikan solusi digital yang praktis. Siswa tidak perlu lagi bingung mencari atau melaporkan barang yang tercecer. Cukup akses platform ini, cari berdasarkan kategori, atau bantu teman dengan melaporkan barang temuan.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Fitur Utama
+* **Pencarian Terstruktur:** Cari barang yang hilang dengan mudah melalui kategori spesifik seperti Elektronik, Atribut, Alat Tulis, Dompet/Kunci, dan Lainnya.
+* **Lapor Temuan (Upload):** Fitur interaktif bagi siswa atau staf OSIS untuk melaporkan barang yang mereka temukan secara langsung beserta bukti visual.
+* **Sistem Login:** Keamanan akses untuk melacak laporan dan mengelola data barang secara aman.
+* **Pusat Informasi Tersinkronisasi:** Database terpusat untuk memastikan informasi barang yang hilang dan ditemukan selalu relevan dan akurat.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Teknologi yang Digunakan
+Proyek ini dikembangkan menggunakan standar web modern untuk memastikan antarmuka yang responsif serta fungsionalitas yang mulus.
+* Antarmuka responsif yang dibangun menggunakan HTML, CSS, dan JavaScript.
+* Integrasi *version control* menggunakan Git dan GitHub.
+* *Deployment* yang cepat dan stabil melalui platform Vercel.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Cara Penggunaan
+1. Kunjungi tautan resmi NAWA-SEARCH di [https://nawa-search.vercel.app](https://nawa-search.vercel.app).
+2. Gunakan kolom pencarian pusat atau filter kategori di halaman utama untuk mencari barang yang hilang.
+3. Jika menemukan barang tercecer di area sekolah, klik tombol **Lapor Temuan (+ LAPOR)** lalu isi detail barang tersebut untuk membantu pemilik aslinya.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Tentang Pengembang
+Platform ini dikembangkan dan dipelihara secara aktif oleh **NAWASENA Development Team**. Kami berkomitmen untuk terus berinovasi dan menghadirkan solusi teknologi yang bermanfaat bagi ketertiban dan kenyamanan sekolah.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**"Temukan Barangmu Cepat & Mudah."**
