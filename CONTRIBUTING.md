@@ -1,48 +1,29 @@
-Panduan Kontribusi NAWA-SEARCH
-Halo! Terima kasih sudah meluangkan waktu untuk berkontribusi di repositori NAWA-SEARCH. Proyek ini adalah inisiatif mandiri untuk menciptakan lingkungan sekolah yang lebih teratur melalui solusi digital. Bantuan dari sesama developer sangat kami hargai.
+# Panduan Kontribusi untuk NAWA-SEARCH
 
-Dokumen ini memuat panduan dasar tentang cara berpartisipasi dan menyumbangkan kode ke dalam proyek ini.
+Terima kasih telah meluangkan waktu untuk berkontribusi pada **NAWA-SEARCH**! 🚀
 
-Cara Berpartisipasi
-Kami sangat terbuka dengan berbagai bentuk kontribusi, mulai dari perbaikan bug, penulisan dokumentasi, hingga pengembangan fitur baru.
+NAWA-SEARCH adalah platform pusat informasi barang temuan di area sekolah. Kami sangat menyambut kontribusi dari siapa saja—baik itu perbaikan bug, penambahan fitur, perbaikan desain, maupun pelaporan masalah.
 
-Melaporkan Bug: Jika kamu menemukan celah keamanan atau error di website, silakan buat Issue baru di GitHub. Sertakan langkah detail untuk mereproduksi error tersebut agar tim kami bisa segera memperbaikinya.
+Dokumen ini berisi serangkaian pedoman untuk berkontribusi pada repositori ini.
 
-Saran Fitur Baru: Punya ide keren untuk pengembangan web Lost and Found ini? Buat Issue dan jelaskan bagaimana fitur tersebut bisa mempermudah proses pelaporan atau pencarian barang.
+## Cara Berkontribusi
 
-Memperbaiki Kode: Kamu bisa langsung mengambil Issue yang sedang terbuka dan mengirimkan Pull Request.
+### 🐞 Melaporkan Bug
+Jika kamu menemukan bug atau masalah saat menggunakan web NAWA-SEARCH (misalnya: gagal sinkronisasi database, error saat lapor temuan, dll), silakan buka **Issue** baru.
+1. Cek terlebih dahulu di tab *Issues* untuk memastikan bug tersebut belum dilaporkan oleh orang lain.
+2. Gunakan judul yang jelas dan deskriptif.
+3. Jelaskan langkah-langkah untuk mereproduksi bug tersebut.
+4. Lampirkan *screenshot* jika memungkinkan.
 
-Panduan Pull Request (PR)
-Untuk menjaga kerapian dan stabilitas repositori utama, ikuti langkah-langkah berikut saat ingin menyumbangkan kode:
+### ✨ Mengusulkan Fitur Baru
+Punya ide agar NAWA-SEARCH lebih baik? Kami ingin mendengarnya!
+1. Buka **Issue** baru dan tambahkan label `enhancement` atau `feature`.
+2. Jelaskan fitur apa yang kamu inginkan dan bagaimana fitur tersebut akan membantu siswa atau pengguna lainnya.
 
-Lakukan Fork pada repositori utama ke akun GitHub pribadimu.
+### 🛠️ Mengirimkan Pull Request (PR)
+Jika kamu ingin turun langsung menulis kode, silakan ikuti alur berikut:
 
-Lakukan Clone repositori hasil fork tersebut ke komputer lokal.
-
-Buat branch baru untuk fitur atau perbaikan yang akan dikerjakan (contoh: git checkout -b perbaikan-ui-pencarian).
-
-Tulis kode atau lakukan perbaikan yang diperlukan.
-
-Lakukan commit dengan pesan yang singkat, jelas, dan deskriptif.
-
-Lakukan Push ke branch di repositori fork milikmu.
-
-Buka repositori utama NAWASENA Development Team dan buat Pull Request baru.
-
-Tunggu ulasan dari pengelola repositori. Kami mungkin akan memberikan sedikit masukan sebelum kodemu digabungkan.
-
-Standar Pengodean
-Proyek ini dibangun menggunakan standar web modern. Agar kode tetap konsisten, mohon perhatikan beberapa hal berikut:
-
-Pastikan antarmuka tetap responsif di berbagai perangkat menggunakan HTML dan CSS yang efisien.
-
-Jaga kebersihan kode JavaScript dan hindari fungsi yang terlalu rumit tanpa penjelasan.
-
-Berikan komentar pada bagian kode yang kompleks untuk memudahkan developer lain memahami logikanya.
-
-Uji kode secara lokal terlebih dahulu sebelum membuat Pull Request.
-
-Hubungi Kami
-Jika ada pertanyaan lebih lanjut seputar teknis integrasi web atau butuh bantuan saat melakukan setup proyek secara lokal, kamu bisa berdiskusi langsung melalui tab Issues.
-
-Mari bersama membangun solusi teknologi yang bermanfaat untuk semua!
+1. **Fork** repositori ini ke akun GitHub kamu.
+2. **Clone** repositori hasil fork ke komputer lokalmu:
+   ```bash
+   git clone [https://github.com/USERNAME_KAMU/nawa-search.git](https://github.com/USERNAME_KAMU/nawa-search.git)
