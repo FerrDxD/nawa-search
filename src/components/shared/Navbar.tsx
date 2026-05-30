@@ -37,8 +37,8 @@ export default function Navbar() {
     <nav className="fixed top-4 md:top-6 left-1/2 -translate-x-1/2 w-[95%] md:w-[90%] max-w-4xl z-50 animate-fade-in-up">
       <div className="glass px-4 md:px-6 py-3 md:py-4 rounded-[24px] md:rounded-[32px] shadow-premium flex justify-between items-center">
         <Link href="/" className="flex items-center gap-2 md:gap-3 group">
-          <div className="w-10 h-10 md:w-12 md:h-12 flex items-center justify-center group-hover:scale-110 group-hover:rotate-6 transition-all duration-500">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" className="w-full h-full">
+          <div className="w-10 h-10 md:w-12 md:h-12 flex items-center justify-center group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 bg-gradient-to-br from-blue-600 to-indigo-600 rounded-xl shadow-lg shadow-blue-200/50 p-2">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" className="w-full h-full drop-shadow-md">
               <defs>
                 <filter id="arcane-search-glow" x="-25%" y="-25%" width="150%" height="150%">
                   <feGaussianBlur stdDeviation="3.8" result="blur" />
