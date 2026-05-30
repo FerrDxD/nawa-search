@@ -19,7 +19,7 @@ export default function Navbar() {
     checkUser();
 
     // Listen perubahan auth
-    const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((_event: any, session: any) => {
       setUser(session?.user ?? null);
       router.refresh();
     });
@@ -38,22 +38,38 @@ export default function Navbar() {
       <div className="glass px-4 md:px-6 py-3 md:py-4 rounded-[24px] md:rounded-[32px] shadow-premium flex justify-between items-center">
         <Link href="/" className="flex items-center gap-2 md:gap-3 group">
           <div className="w-10 h-10 md:w-12 md:h-12 flex items-center justify-center group-hover:scale-110 group-hover:rotate-6 transition-all duration-500">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" className="w-full h-full">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" className="w-full h-full">
               <defs>
-                <linearGradient id="crystalGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" stopColor="#60a5fa" />
-                  <stop offset="50%" stopColor="#3b82f6" />
-                  <stop offset="100%" stopColor="#7c3aed" />
-                </linearGradient>
+                <filter id="arcane-search-glow" x="-25%" y="-25%" width="150%" height="150%">
+                  <feGaussianBlur stdDeviation="3.8" result="blur" />
+                  <feComposite in="SourceGraphic" in2="blur" operator="over" />
+                </filter>
               </defs>
-              <ellipse cx="50" cy="50" rx="42" ry="12" fill="none" stroke="#0f172a" strokeWidth="2" transform="rotate(30 50 50)" />
-              <ellipse cx="50" cy="50" rx="42" ry="12" fill="none" stroke="#0f172a" strokeWidth="2" transform="rotate(-30 50 50)" />
-              <path d="M50 12 L80 40 L50 88 L20 40 Z" fill="url(#crystalGrad)" stroke="#0f172a" strokeWidth="2" strokeLinejoin="round" />
-              <path d="M50 12 L50 88 L20 40 Z" fill="#000000" fillOpacity="0.15" />
-              <path d="M50 12 L80 40 L50 45 Z" fill="#ffffff" fillOpacity="0.3" />
-              <path d="M20 40 L80 40 L50 45 Z" fill="#ffffff" fillOpacity="0.15" />
-              <circle cx="15" cy="20" r="3" fill="#8b5cf6" />
-              <circle cx="85" cy="80" r="2" fill="#3b82f6" />
+
+              <g transform="translate(0, 0)">
+                <polygon 
+                  points="60,35 70,60 60,85 50,60" 
+                  fill="#FFFFFF" 
+                  filter="url(#arcane-search-glow)" 
+                />
+
+                <g fill="rgba(255, 255, 255, 0.75)">
+                  <polygon points="25,55 50,30 55,40 35,55" />
+                  <polygon points="95,55 70,30 65,40 85,55" />
+                  <polygon points="25,65 50,90 55,80 35,65" />
+                  <polygon points="95,65 70,90 65,80 85,65" />
+                </g>
+
+                <g fill="rgba(255, 255, 255, 0.75)">
+                  <polygon points="10,60 15,50 20,60 15,70" />
+                  <polygon points="110,60 105,50 100,60 105,70" />
+                </g>
+
+                <g fill="rgba(255, 255, 255, 0.40)">
+                  <polygon points="60,10 65,20 60,25 55,20" />
+                  <polygon points="60,110 65,100 60,95 55,100" />
+                </g>
+              </g>
             </svg>
           </div>
           <span className="text-lg md:text-xl font-black tracking-tighter text-[#0f172a] group-hover:text-blue-600 transition-colors">

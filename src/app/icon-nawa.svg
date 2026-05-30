@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <defs>
+    <filter id="arcane-search-glow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="3.8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <g transform="translate(0, 0)">
+    <polygon 
+      points="60,35 70,60 60,85 50,60" 
+      fill="#FFFFFF" 
+      filter="url(#arcane-search-glow)" 
+    />
+
+    <g fill="rgba(255, 255, 255, 0.75)">
+      <polygon points="25,55 50,30 55,40 35,55" />
+      <polygon points="95,55 70,30 65,40 85,55" />
+      <polygon points="25,65 50,90 55,80 35,65" />
+      <polygon points="95,65 70,90 65,80 85,65" />
+    </g>
+
+    <g fill="rgba(255, 255, 255, 0.75)">
+      <polygon points="10,60 15,50 20,60 15,70" />
+      <polygon points="110,60 105,50 100,60 105,70" />
+    </g>
+
+    <g fill="rgba(255, 255, 255, 0.40)">
+      <polygon points="60,10 65,20 60,25 55,20" />
+      <polygon points="60,110 65,100 60,95 55,100" />
+    </g>
+  </g>
+</svg>
